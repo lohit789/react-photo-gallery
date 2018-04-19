@@ -1,0 +1,46 @@
+img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+ 
+.left {
+  float: left;
+}
+
+.image-gallery {
+  position: relative;
+}
+
+.image-gallery--main-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.image-gallery--thumbnail-list {
+  list-style: none;
+    margin: 0 0 0 6px;
+    padding: 0;
+    max-width: 104px;
+}
+
+.image-gallery--thumbnail-list li {
+  cursor: pointer;
+  list-style: none;
+  display: block;
+  margin: 1px 0 0 0;
+}
+
+.image-gallery--thumbnail-list li:first {
+  margin: 0;
+}
+
+.image-gallery--thumbnail {
+  opacity: 0.25;
+}
+
+.image-gallery--thumbnail.is-active {
+  opacity: 1.0;
+}
+
